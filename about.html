@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Luxury Jewelry</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">LUXURY JEWELRY</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="collection.html">Collections</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="cart-icon" id="cart-icon">
+                    <span>🛒</span>
+                    <span class="cart-count" id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="about-hero">
+        <div class="container">
+            <h1>Our Story</h1>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Crafting Timeless Elegance Since 1985</h2>
+                <p>Founded in the heart of Gaborone, Luxury Jewelry began as a small family workshop dedicated to creating exquisite handmade pieces. What started as a passion project between master jewelers has grown into Botswana's premier destination for fine jewelry.</p>
+                <p>For over three decades, we've combined traditional craftsmanship with contemporary design to create pieces that tell stories and become family heirlooms. Each creation reflects our commitment to quality, beauty, and ethical sourcing.</p>
+                <p>Today, while we've grown from that humble workshop, we maintain the same attention to detail and personal touch that defined our beginnings. Our team of skilled artisans continues the legacy of handcrafting jewelry that celebrates life's most precious moments.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e" alt="Jewelry Workshop">
+            </div>
+        </div>
+    </section>
+    
+    <section class="our-values">
+        <div class="container">
+            <h2 class="section-title">Our Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">💎</div>
+                    <h3>Quality Craftsmanship</h3>
+                    <p>Every piece is meticulously handcrafted by our master jewelers using only the finest materials and time-honored techniques.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🌱</div>
+                    <h3>Ethical Sourcing</h3>
+                    <p>We're committed to responsible sourcing, ensuring our gems and metals meet the highest ethical and environmental standards.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">❤️</div>
+                    <h3>Customer Care</h3>
+                    <p>Your satisfaction is our priority. We offer personalized service and lifelong care for every piece we create.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">✨</div>
+                    <h3>Timeless Design</h3>
+                    <p>We create jewelry that transcends trends, designed to be cherished and passed down through generations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Luxury Jewelry has been crafting exquisite pieces since 1985. Our artisans combine traditional techniques with modern design.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="collection.html">Collections</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>123 Jewelry Street, Bontleng, Gaborone</p>
+                    <p>Phone: +267 71236685</p>
+                    <p>Email: info@luxuryjewelry.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple cart count functionality to match the main page
+        const cartCount = document.getElementById('cart-count');
+        const cartIcon = document.getElementById('cart-icon');
+        
+        // This would normally be connected to your actual cart system
+        // For demonstration, we'll just show 0 items
+        cartCount.textContent = '0';
+        
+        cartIcon.addEventListener('click', () => {
+            alert('Cart functionality would appear here. On the main page, this opens a modal with cart items.');
+        });
+    </script>
+</body>
+</html>

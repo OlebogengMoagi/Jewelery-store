@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collections - Luxury Jewelry</title>
+    <link rel="stylesheet" href="collection.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">LUXURY JEWELRY</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="collection.html">Collections</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="cart-icon" id="cart-icon">
+                    <span>🛒</span>
+                    <span class="cart-count" id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="collections-hero">
+        <div class="container">
+            <h1>Our Exclusive Collections</h1>
+            <p>Discover handcrafted pieces that tell your unique story</p>
+            <a href="#collections" class="btn">View Collections</a>
+        </div>
+    </section>
+    
+    <section class="container" id="collections">
+        <div class="collection-filter">
+            <button class="filter-btn active" data-filter="all">All Collections</button>
+            <button class="filter-btn" data-filter="rings">Rings</button>
+            <button class="filter-btn" data-filter="necklaces">Necklaces</button>
+            <button class="filter-btn" data-filter="earrings">Earrings</button>
+            <button class="filter-btn" data-filter="bracelets">Bracelets</button>
+        </div>
+        
+        <h2 class="section-title">Signature Collections</h2>
+        
+        <div class="collections-grid">
+            <!-- Collection Item 1 -->
+            <div class="collection-item" data-category="rings">
+                <div class="collection-img">
+                    <img src="diamong-ring.jpg" alt="Diamond Ring">
+                </div>
+                <div class="collection-info">
+                    <h3>Eternity Diamond Ring</h3>
+                    <p>18K white gold with 0.5ct diamonds all around</p>
+                    <span class="price">P1,299.00</span>
+                    <button class="add-to-cart" data-id="101" data-name="Eternity Diamond Ring" data-price="1299.00" data-image="https://images.unsplash.com/photo-1603974372035-9d5c16a5295e">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Collection Item 2 -->
+            <div class="collection-item" data-category="necklaces">
+                <div class="collection-img">
+                    <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a" alt="Pearl Necklace">
+                </div>
+                <div class="collection-info">
+                    <h3>Pearl Elegance Necklace</h3>
+                    <p>14K gold chain with freshwater pearls</p>
+                    <span class="price">P899.00</span>
+                    <button class="add-to-cart" data-id="102" data-name="Pearl Elegance Necklace" data-price="899.00" data-image="https://images.unsplash.com/photo-1602173574767-37ac01994b2a">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Collection Item 3 -->
+            <div class="collection-item" data-category="earrings">
+                <div class="collection-img">
+                    <img src="earing.jpg" alt="Sapphire Earrings">
+                </div>
+                <div class="collection-info">
+                    <h3>Sapphire Teardrops</h3>
+                    <p>Platinum earrings with natural blue sapphires</p>
+                    <span class="price">P699.00</span>
+                    <button class="add-to-cart" data-id="103" data-name="Sapphire Teardrops" data-price="699.00" data-image="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Collection Item 4 -->
+            <div class="collection-item" data-category="bracelets">
+                <div class="collection-img">
+                    <img src="bracelet.jpg" alt="Silver Bracelet">
+                </div>
+                <div class="collection-info">
+                    <h3>Silver Charm Bracelet</h3>
+                    <p>Sterling silver with customizable charms</p>
+                    <span class="price">P499.00</span>
+                    <button class="add-to-cart" data-id="104" data-name="Silver Charm Bracelet" data-price="499.00" data-image="https://images.unsplash.com/photo-1605100804763-247f67b3557e">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Collection Item 5 -->
+            <div class="collection-item" data-category="rings">
+                <div class="collection-img">
+                    <img src="weeding band.jpg" alt="Gold Wedding Band">
+                </div>
+                <div class="collection-info">
+                    <h3>Classic Wedding Band</h3>
+                    <p>18K yellow gold polished finish</p>
+                    <span class="price">P599.00</span>
+                    <button class="add-to-cart" data-id="105" data-name="Classic Wedding Band" data-price="599.00" data-image="https://images.unsplash.com/photo-1603974372035-9d5c16a5295e">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Collection Item 6 -->
+            <div class="collection-item" data-category="necklaces">
+                <div class="collection-img">
+                    <img src="diamong padant.jpg" alt="Diamond Pendant">
+                </div>
+                <div class="collection-info">
+                    <h3>Solitaire Diamond Pendant</h3>
+                    <p>0.3ct diamond on 14K white gold chain</p>
+                    <span class="price">P1,199.00</span>
+                    <button class="add-to-cart" data-id="106" data-name="Solitaire Diamond Pendant" data-price="1199.00" data-image="https://images.unsplash.com/photo-1602173574767-37ac01994b2a">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="featured-collection">
+        <div class="container">
+            <div class="featured-content">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a" alt="Royal Collection">
+                </div>
+                <div class="featured-text">
+                    <h2>The Royal Collection</h2>
+                    <p>Our most exclusive line, inspired by traditional Motswana craftsmanship with contemporary luxury. Each piece in this collection is handcrafted by our master jewelers using ethically sourced diamonds and the finest precious metals.</p>
+                    <p>The Royal Collection represents the pinnacle of our artistry, with limited edition pieces that become family heirlooms. Discover the perfect statement piece for your most special occasions.</p>
+                    <a href="#" class="btn">Explore Royal Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Luxury Jewelry has been crafting exquisite pieces since 1985. Our artisans combine traditional techniques with modern design.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="collections.html">Collections</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>123 Jewelry Street, Bontleng, Gaborone</p>
+                    <p>Phone: +267 71236685</p>
+                    <p>Email: info@luxuryjewelry.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Luxury Jewelry. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Cart Modal -->
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be added here dynamically -->
+                <p id="empty-cart-message">Your cart is empty</p>
+            </div>
+            <div class="cart-total">
+                Total: P<span id="cart-total">0.00</span>
+            </div>
+            <button class="checkout-btn" id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    
+    <script>
+        // Cart functionality
+        let cart = [];
+        
+        // DOM elements
+        const cartIcon = document.getElementById('cart-icon');
+        const cartModal = document.getElementById('cart-modal');
+        const closeModal = document.getElementById('close-modal');
+        const cartItemsContainer = document.getElementById('cart-items');
+        const emptyCartMessage = document.getElementById('empty-cart-message');
+        const cartTotal = document.getElementById('cart-total');
+        const cartCount = document.getElementById('cart-count');
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        const checkoutBtn = document.getElementById('checkout-btn');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        
+        // Toggle cart modal
+        cartIcon.addEventListener('click', () => {
+            cartModal.style.display = 'flex';
+        });
+        
+        closeModal.addEventListener('click', () => {
+            cartModal.style.display = 'none';
+        });
+        
+        // Close modal when clicking outside
+        window.addEventListener('click', (e) => {
+            if (e.target === cartModal) {
+                cartModal.style.display = 'none';
+            }
+        });
+        
+        // Add to cart functionality
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const id = button.getAttribute('data-id');
+                const name = button.getAttribute('data-name');
+                const price = parseFloat(button.getAttribute('data-price'));
+                const image = button.getAttribute('data-image');
+                
+                // Check if item already in cart
+                const existingItem = cart.find(item => item.id === id);
+                
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({
+                        id,
+                        name,
+                        price,
+                        image,
+                        quantity: 1
+                    });
+                }
+                
+                updateCart();
+                
+                // Show confirmation
+                alert(`${name} has been added to your cart!`);
+            });
+        });
+        
+        // Update cart display
+        function updateCart() {
+            // Update cart count
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            cartCount.textContent = totalItems;
+            
+            // Update cart items
+            if (cart.length === 0) {
+                emptyCartMessage.style.display = 'block';
+                cartItemsContainer.innerHTML = '<p id="empty-cart-message">Your cart is empty</p>';
+            } else {
+                emptyCartMessage.style.display = 'none';
+                
+                let itemsHTML = '';
+                let total = 0;
+                
+                cart.forEach(item => {
+                    const itemTotal = item.price * item.quantity;
+                    total += itemTotal;
+                    
+                    itemsHTML += `
+                        <div class="cart-item">
+                            <img src="${item.image}" alt="${item.name}">
+                            <div class="cart-item-info">
+                                <h4>${item.name}</h4>
+                                <p>P${item.price.toFixed(2)} x ${item.quantity}</p>
+                            </div>
+                            <div class="cart-item-price">P${itemTotal.toFixed(2)}</div>
+                            <span class="remove-item" data-id="${item.id}">✕</span>
+                        </div>
+                    `;
+                });
+                
+                cartItemsContainer.innerHTML = itemsHTML;
+                cartTotal.textContent = total.toFixed(2);
+                
+                // Add event listeners to remove buttons
+                document.querySelectorAll('.remove-item').forEach(button => {
+                    button.addEventListener('click', (e) => {
+                        const id = e.target.getAttribute('data-id');
+                        cart = cart.filter(item => item.id !== id);
+                        updateCart();
+                    });
+                });
+            }
+        }
+        
+        // Checkout button
+        checkoutBtn.addEventListener('click', () => {
+            if (cart.length === 0) {
+                alert('Your cart is empty!');
+            } else {
+                alert('Proceeding to checkout! In a real implementation, this would redirect to a checkout page.');
+                // Here you would typically redirect to a checkout page
+                // window.location.href = '/checkout';
+            }
+        });
+        
+        // Filter functionality
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Update active button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                const items = document.querySelectorAll('.collection-item');
+                
+                items.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
